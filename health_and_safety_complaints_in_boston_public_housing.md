@@ -67,7 +67,8 @@ All cleaning was done by hand (and using "find and replace") in Google Drive, ra
 
 Now that the development addresses are in the same format, we can cross-reference them to narrow the larger dataset solely to complaints and code violations that correspond to public and subsidized housing units. The result -- 448 complaints -- are saved to a new list of dictionaries and .csv files, as well as inserted into a MongoDB database on my EC2 server. 
 
-TKTK -- GitHub link to compare addresses, save to .csv and upload to database
+**The code for pulling out the violations and complaints associated with BHA public and subsidized housing developments can be found [here](https://github.com/shawnmusgrave/boston_bha_code_violations/blob/master/bha_violations_parser.py).**
 
+I will provide an API URL and syntax in class. 
 
 
