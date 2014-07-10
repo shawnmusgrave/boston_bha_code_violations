@@ -19,7 +19,7 @@ The database is available for web viewing [here](https://data.cityofboston.gov/C
 
 As accessed on July 8, 2014, the database contained 438,194 entries from July 1, 2011 through July 6, 2014, which included requests for bulk item pickup along with complaints of rat infestation. This larger database was pared down to confirmed violations as well as serious/relevant complaints, for a total of 70,166 entries for cross-referencing against public and subsidized housing units. 
 
-**The code for pulling serious complaints from the City of Boston open data API can be found [here](https://github.com/shawnmusgrave/boston_bha_code_violations/blob/master/serious_complaints_parser.py). The data pulled can be found [here](https://raw.githubusercontent.com/shawnmusgrave/boston_bha_code_violations/master/data/serious_complaints.csv).**
+**The code for pulling serious health and safety violations and complaints from the City of Boston open data API can be found [here](https://github.com/shawnmusgrave/boston_bha_code_violations/blob/master/serious_complaints_parser.py). The data pulled can be found [here](https://raw.githubusercontent.com/shawnmusgrave/boston_bha_code_violations/master/data/serious_complaints.csv).**
 
 <br>
 
