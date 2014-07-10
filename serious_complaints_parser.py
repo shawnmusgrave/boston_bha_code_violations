@@ -50,6 +50,7 @@ for each_page in range(0,440): # as of June 9, 2014, the total number of enquiri
 
     for each_enquiry in response_dicts:
         # capture all instances where a violation was confirmed by the city, regardless of type
+        # first check to make sure that the closure_reason field is not empty, which will throw an error
         if each_enquiry.get("closure_reason") is not None:
             if (each_enquiry["closure_reason"] == "Case Closed VIOISS: Violation Filed ")\
             or (each_enquiry["closure_reason"] == "Case Closed VIOCOR: Violation Corrected "):
