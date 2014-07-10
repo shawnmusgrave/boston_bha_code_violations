@@ -69,6 +69,24 @@ Now that the development addresses are in the same format, we can cross-referenc
 
 **The code for pulling out the violations and complaints associated with BHA public and subsidized housing developments can be found [here](https://github.com/shawnmusgrave/boston_bha_code_violations/blob/master/bha_violations_parser.py).**
 
-I will provide an API URL and syntax in class. 
+<br>
 
+##Accessing the results via API
 
+In your browser of choice, use the following syntax to make API calls:
+
+	http://[Public DNS - Shawn will provide]:8000/bhaviolations?dev_id=[enter development ID]
+
+Suggested development IDs to try (all are between 1 and 300):
+
+* 6
+* 51
+* 67
+* 115
+* 28
+
+##Next steps
+
+I know that there are duplicates in my dataset. For instance, some developments are funded by federal as well as municipal program funds, these developments are getting double dinged. 
+
+This parsing methodology can be used to collate health and safety violations along a number of different axes!
