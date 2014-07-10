@@ -75,7 +75,7 @@ Now that the development addresses are in the same format, we can cross-referenc
 
 In your browser of choice, use the following syntax to make API calls for particular developments:
 
-	http://ec2-54-209-38-28.compute-1.amazonaws.com:8000/dev_id?dev_id=[enter development ID]
+	http://[insert server DNS]:8000/dev_id?dev_id=[enter development ID]
 
 Suggested development IDs to try (all are between 1 and 300):
 
@@ -87,7 +87,7 @@ Suggested development IDs to try (all are between 1 and 300):
 
 In your browser of choice, use the following syntax to make API calls for particular violation types (this is still rudimentary):
 
-	http://ec2-54-209-38-28.compute-1.amazonaws.com:8000/violation_type?viol_type=[enter violation type]
+	http://[insert server DNS]:8000/violation_type?viol_type=[enter violation type]
 	
 Suggested violation types to try (copy entire text with spaces, for now):
 
