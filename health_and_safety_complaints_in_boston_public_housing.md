@@ -85,8 +85,15 @@ Suggested development IDs to try (all are between 1 and 300):
 * 115
 * 28
 
-	http://[Public DNS - Shawn will provide]:8000/violation_type?viol_type=[enter violation type]
+In your browser of choice, use the following syntax to make API calls for particular violation types (this is still rudimentary):
 
+	http://[Public DNS - Shawn will provide]:8000/violation_type?viol_type=[enter violation type]
+	
+Suggested violation types to try (copy entire text with spaces, for now):
+
+* Rodent Activity
+* Unsatisfactory Living Conditions
+* Bed Bugs
 
 ##Next steps
 
