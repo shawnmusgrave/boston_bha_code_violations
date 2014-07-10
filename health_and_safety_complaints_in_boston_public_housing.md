@@ -73,9 +73,9 @@ Now that the development addresses are in the same format, we can cross-referenc
 
 ##Accessing the results via API
 
-In your browser of choice, use the following syntax to make API calls:
+In your browser of choice, use the following syntax to make API calls for particular developments:
 
-	http://[Public DNS - Shawn will provide]:8000/bhaviolations?dev_id=[enter development ID]
+	http://[Public DNS - Shawn will provide]:8000/dev_id?dev_id=[enter development ID]
 
 Suggested development IDs to try (all are between 1 and 300):
 
@@ -85,8 +85,13 @@ Suggested development IDs to try (all are between 1 and 300):
 * 115
 * 28
 
+	http://[Public DNS - Shawn will provide]:8000/violation_type?viol_type=[enter violation type]
+
+
 ##Next steps
 
 I know that there are duplicates in my dataset. For instance, some developments are funded by federal as well as municipal program funds, these developments are getting double dinged. 
 
 This parsing methodology can be used to collate health and safety violations along a number of different axes!
+
+I'd like to map these results, as well. 
